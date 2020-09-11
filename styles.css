@@ -50,9 +50,42 @@ nav ul li {
 
 
 /* ---------------- HERO SECTION ---------------------- */
-
-
+.main-hero {
+  background-color: #cdd8fa;
+  height: 65vh;
+  width: 100%;
+}
+.hero-title {
+  margin:0;
+}
 /* ---------------- ABOUT ME -------------------------- */
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 50vh;
+}
+.about-photo {
+  background-image: url(IMG_7732.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 /* ---------------- SKILLS ---------------------------- */
+.skills-section-title {
+  width: 100%;
+  background-color: #a7b6e1;
+  padding: 2rem 0;
+  text-align: center;
+}
+.skills-section-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 /* ---------------- MY WORK --------------------------- */
 /* ---------------- CONTACT --------------------------- */
