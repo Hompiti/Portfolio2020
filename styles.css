@@ -59,7 +59,7 @@ nav ul li {
 }
 .hero-title {
   margin:0;
-  /* padding-top: 40%; */
+  padding-top: 15em;
   padding-left: 50px;
 }
 /* ---------------- ABOUT ME -------------------------- */
@@ -71,11 +71,25 @@ nav ul li {
   grid-row-gap: 0px;
   height: 50vh;
 }
+.about-content h3 {
+  padding: 3em 0 2em 2em;
+  margin: 0;
+}
+.about-content p {
+  padding-left: 1.5em;
+  padding-right: 2em;
+  padding-top: 0em;
+  font-size: 1.5em;
+}
 .about-photo {
   background-image: url(IMG_7732.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border: solid 3px;
+  border-color: #F37207;
+  border-radius: 50% 20% / 10% 40%;
+
 }
 /* ---------------- SKILLS ---------------------------- */
 .skills-section-title {
@@ -93,10 +107,14 @@ nav ul li {
 }
 .skills-section-content img {
   margin: 0 auto;
+  padding: 2.5em;
 }
 /* ---------------- MY WORK --------------------------- */
 .work-section h2 {
   text-align: center;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #F37207;
 }
 .work-section-banner {
   display: grid;
