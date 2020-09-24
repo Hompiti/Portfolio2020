@@ -16,6 +16,7 @@ body {
   padding: 0;
   font-family: 'Alegreya Sans', sans-serif;
 }
+
 p {
   margin-bottom: 1.25em;
   line-height: 1.5em;
@@ -54,14 +55,19 @@ nav ul li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 65vh;
+  height: 55vh;
   width: 100%;
+  position: relative;
 }
+
 .hero-title {
-  margin:0;
+  margin: 0;
   padding-top: 15em;
   padding-left: 50px;
+  position: absolute;
+  bottom: 50px;
 }
+
 /* ---------------- ABOUT ME -------------------------- */
 .about-section {
   display: grid;
@@ -71,26 +77,30 @@ nav ul li {
   grid-row-gap: 0px;
   height: 50vh;
 }
+
 .about-content h3 {
   padding: 3em 0 2em 2em;
   margin: 0;
 }
+
 .about-content p {
   padding-left: 1.5em;
   padding-right: 2em;
   padding-top: 0em;
   font-size: 1.5em;
 }
+
 .about-photo {
   background-image: url(IMG_7732.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border: solid 3px;
+  /* border: solid 3px;
   border-color: #F37207;
-  border-radius: 50% 20% / 10% 40%;
+  border-radius: 50% 20% / 10% 40%; */
 
 }
+
 /* ---------------- SKILLS ---------------------------- */
 .skills-section-title {
   width: 100%;
@@ -98,6 +108,7 @@ nav ul li {
   padding: 2rem 0;
   text-align: center;
 }
+
 .skills-section-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -105,10 +116,12 @@ nav ul li {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+
 .skills-section-content img {
   margin: 0 auto;
   padding: 2.5em;
 }
+
 /* ---------------- MY WORK --------------------------- */
 .work-section h2 {
   text-align: center;
@@ -116,6 +129,7 @@ nav ul li {
   padding: 2rem 0;
   background-color: #F37207;
 }
+
 .work-section-banner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -123,14 +137,17 @@ nav ul li {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+
 .banner-content {
   padding: 1em;
   margin: 1em;
 }
+
 .banner-photo {
   margin: 0 auto;
 
 }
+
 /* ---------------- CONTACT --------------------------- */
 .Contact-section {
   display: grid;
@@ -139,27 +156,31 @@ nav ul li {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-.Contact-section-social {
-}
+
 .Contact-section-social ul {
   list-style-type: none;
   margin: 0;
   text-align: center;
   display: block;
 }
+
 .Contact-section-social ul li {
   display: inline-block;
   margin-left: 2em;
 
 }
+
 .Contact-section-photo img {
   display: block;
   right: 0;
   margin: 0 auto;
 }
+
 .Contact-section-content {
   padding-left: 2em;
+  background: gray;
 }
+
 /* ---------------- FOOTER ---------------------------- */
 footer {
   text-align: center;
@@ -167,6 +188,7 @@ footer {
   margin: 0;
   padding: 1em 0;
 }
+
 footer p {
   margin: 0;
   padding: 0;
