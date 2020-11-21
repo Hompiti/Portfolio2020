@@ -34,7 +34,7 @@ nav {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   padding: 2rem 5rem;
-  background: #eaeaea;
+  background: #576CA8;
 }
 
 nav ul {
@@ -75,7 +75,6 @@ nav ul li {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  height: 50vh;
 }
 
 .about-content h3 {
@@ -104,7 +103,7 @@ nav ul li {
 /* ---------------- SKILLS ---------------------------- */
 .skills-section-title {
   width: 100%;
-  background-color: #a7b6e1;
+  background-color: #274690;
   padding: 2rem 0;
   text-align: center;
 }
@@ -127,7 +126,7 @@ nav ul li {
   text-align: center;
   width: 100%;
   padding: 2rem 0;
-  background-color: #F37207;
+  background-color: #274690;
 }
 
 .work-section-banner {
