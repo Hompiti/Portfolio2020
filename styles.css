@@ -6,6 +6,7 @@ Author: Alex Perez
 Last Updated: 10 September,2020
 File name: styles.css
 
+Colors: Dark Blue (#1B264F) Blue (#274690) light blue (#576CA8) dark grey (#302B27) Light Grey (#F5F3F5)
 */
 
 /* ---------------- BASE STYLES ------------------------ */
@@ -34,11 +35,16 @@ nav {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   padding: 2rem 5rem;
-  background: #576CA8;
+  background: #302B27;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f5f3f5;
 }
 
 nav ul {
   text-align: right;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
@@ -48,14 +54,30 @@ nav ul li {
   text-align: right;
 }
 
+nav ul li a {
+  color: #f5f3f5;
+  cursor: pointer;
+}
 
+nav h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.my-name {
+  font-size: 25px;
+}
+
+.my-name span {
+  color: #8D9FE0;
+}
 /* ---------------- HERO SECTION ---------------------- */
 .main-hero {
   background: url(main-hero-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 55vh;
+  height: 75vh;
   width: 100%;
   position: relative;
 }
