@@ -32,13 +32,24 @@ h2 {
   font-size: 35px;
   letter-spacing: 1px;
   color: #274690;
+  margin:0;
 }
 
+h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #274690;
+  margin:0;
+}
 .content{
-  top: 93px;
-  position:relative;
+  position: relative;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
 /* ---------------- NAVIGATION ------------------------ */
 nav {
   display: grid;
@@ -177,7 +188,7 @@ nav h3 {
   text-align: center;
   width: 100%;
   padding: 2rem 0;
-  background-color: #274690;
+  background-color: #F5F3F5;
 }
 
 .work-section-banner {
@@ -186,11 +197,24 @@ nav h3 {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  padding: 50px 80px 50px 80px;
 }
 
 .banner-content {
   padding: 1em;
   margin: 1em;
+  border-left: 3px solid #274690;
+  padding-left: 15px;
+}
+
+.banner-content ul {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.banner-content ul li {
+  margin-bottom: 10px;
 }
 
 .banner-photo {
@@ -228,7 +252,7 @@ nav h3 {
 
 .Contact-section-content {
   padding-left: 2em;
-  background: gray;
+  background: #576CA8;
 }
 
 /* ---------------- FOOTER ---------------------------- */
