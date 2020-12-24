@@ -230,15 +230,16 @@ nav h3 {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #576CA8;
-  padding: 0;
+  background: #576CA8;
+  color: #F5F3F5;
+  padding: 5em;
+  height: 30vh;
 }
 
 .Contact-section h2,
-.Contact-section p,
-.Contact-section a {
-  color:#f5f3f5;
-
+.Contact-section a,
+.Contact-section p {
+  color: #F5F3F5;
 }
 
 .Contact-section-social ul {
@@ -253,22 +254,17 @@ nav h3 {
   margin-right: 2em;
 }
 
-.Contact-section-image {
+.Contact-section-links {
   background-image: url(IMG_3168-2.jpeg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .Contact-section-content {
-  padding: 3em;
+  padding-left: 2em;
   width: 70%;
 }
-
-.Contact-section-content p {
-   line-height: 1.65em;
-   letter-spacing: 1px;
- }
 
 /* ---------------- FOOTER ---------------------------- */
 footer {
