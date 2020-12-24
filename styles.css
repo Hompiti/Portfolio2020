@@ -90,6 +90,7 @@ nav ul li a {
 nav h3 {
   margin: 0;
   padding: 0;
+  color: #f5f3f5;
 }
 
 .my-name {
@@ -119,7 +120,7 @@ nav h3 {
   bottom: 50px;
   color: #fff;
   text-align: left;
-  font-size: 85px;
+  font-size: 55px;
 }
 
 /* ---------------- ABOUT ME -------------------------- */
@@ -229,31 +230,45 @@ nav h3 {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  background-color: #576CA8;
+  padding: 0;
+}
+
+.Contact-section h2,
+.Contact-section p,
+.Contact-section a {
+  color:#f5f3f5;
+
 }
 
 .Contact-section-social ul {
   list-style-type: none;
   margin: 0;
-  text-align: center;
+  text-align: left;
   display: block;
 }
 
 .Contact-section-social ul li {
   display: inline-block;
-  margin-left: 2em;
-
+  margin-right: 2em;
 }
 
-.Contact-section-photo img {
-  display: block;
-  right: 0;
-  margin: 0 auto;
+.Contact-section-image {
+  background-image: url(IMG_3168-2.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .Contact-section-content {
-  padding-left: 2em;
-  background: #576CA8;
+  padding: 3em;
+  width: 70%;
 }
+
+.Contact-section-content p {
+   line-height: 1.65em;
+   letter-spacing: 1px;
+ }
 
 /* ---------------- FOOTER ---------------------------- */
 footer {
