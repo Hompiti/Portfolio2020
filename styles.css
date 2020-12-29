@@ -290,7 +290,7 @@ footer p {
   nav {
     display: block;
     padding: 30px;
-    width: 100%;
+    width: auto;
   }
 
   nav ul {
@@ -337,6 +337,7 @@ footer p {
 
   .skills-section-title {
     padding: 20px;
+    width:auto;
   }
 
   .skills-section-content {
@@ -352,6 +353,7 @@ footer p {
   /* my work styles */
   .work-section h2 {
     padding: 20px;
+    width:auto;
   }
 
   .work-section-banner {
