@@ -10,6 +10,9 @@ Colors: Dark Blue (#1B264F) Blue (#274690) light blue (#576CA8) dark grey (#302B
 */
 
 /* ---------------- BASE STYLES ------------------------ */
+html {
+  scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -255,7 +258,7 @@ nav h3 {
 }
 
 .Contact-section-links {
-  background-image: url(IMG_3168-2.jpeg);
+  background-image: url(AlexP.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -277,4 +280,105 @@ footer {
 footer p {
   margin: 0;
   padding: 0;
+}
+
+/* ---------------- SMARTPHONE STYLES ------------------ */
+
+@media (max-width: 576px) {
+
+/* navegation styles */
+  nav {
+    display: block;
+    padding: 30px;
+    width: 100%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* hero styles */
+  .hero-title {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  /* about me styles */
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .about-content {
+    padding: 20px;
+  }
+
+  .about-content h3 {
+    font-size: 30px;
+  }
+
+  .about-styled {
+    border: none;
+    padding: 0;
+  }
+  /* skills styles */
+
+  .skills-section-title {
+    padding: 20px;
+  }
+
+  .skills-section-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+  }
+
+  .skills-section-content img {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* my work styles */
+  .work-section h2 {
+    padding: 20px;
+  }
+
+  .work-section-banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 20px;
+  }
+
+  .banner-content {
+    padding: 20px;
+    margin: 15px;
+    border: none;
+  }
+
+  .banner-content ul {
+    padding-left: 0;
+  }
+
+  .banner-content ul li {
+    margin-bottom: 10px;
+  }
+
+  .banner-photo {
+    margin: 0 auto;
+  }
+  .banner-photo img {
+    width: 250px;
+  }
 }
