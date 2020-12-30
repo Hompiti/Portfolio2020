@@ -257,7 +257,7 @@ nav h3 {
   margin-right: 2em;
 }
 
-.Contact-section-links {
+.Contact-section-image {
   background-image: url(AlexP.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,9 +282,9 @@ footer p {
   padding: 0;
 }
 
-/* ---------------- SMARTPHONE STYLES ------------------ */
+/* ---------------- TABLET STYLES ------------------ */
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
 /* navegation styles */
   nav {
@@ -305,6 +305,9 @@ footer p {
   }
 
   /* hero styles */
+  .main-hero {
+    height: 55vh;
+  }
   .hero-title {
     margin: 0;
     padding: 20px;
@@ -322,7 +325,7 @@ footer p {
   }
 
   .about-content {
-    padding: 20px;
+    padding: 50px 50px 0 50px;
   }
 
   .about-content h3 {
@@ -336,14 +339,12 @@ footer p {
   /* skills styles */
 
   .skills-section-title {
-    padding: 20px;
+    padding: 25px;
     width:auto;
   }
 
   .skills-section-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,1fr);
+    padding: 55px;
   }
 
   .skills-section-content img {
@@ -352,8 +353,8 @@ footer p {
   }
   /* my work styles */
   .work-section h2 {
-    padding: 20px;
-    width:auto;
+    padding: 25px;
+    width: auto;
   }
 
   .work-section-banner {
@@ -383,4 +384,30 @@ footer p {
   .banner-photo img {
     width: 250px;
   }
+  /*  contact styles  */
+  .Contact-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(2, 1fr);
+    padding: 20px;
+    height: auto;
+  }
+
+  .Contact-section-social ul {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .Contact-section-social ul li {
+    display: inline-block;
+    margin-right: 2em;
+  }
+
+  .Contact-section-content {
+    padding: 50px;
+    width: auto;
+    text-align: center;
+  }
+
+
 }
