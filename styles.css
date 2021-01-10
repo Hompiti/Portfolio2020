@@ -322,7 +322,7 @@ footer p {
     width: auto;
     padding: 2em;
     border-left: none;
-    border-top: 3px solid #274690;
+    height: auto;
   }
 
   .banner-content:nth-of-type(even) {
@@ -330,6 +330,15 @@ footer p {
     padding: 2em;
     border: none;
     margin-left: 0;
+    grid-area: content;
+  }
+
+  .banner-photo:nth-of-type(even) {
+    grid-area: image;
+  }
+
+  .banner-photo:nth-of-type(odd) img {
+    margin: 0;
   }
 
   .banner-photo img {
@@ -337,8 +346,12 @@ footer p {
     margin: 0;
   }
 
-  .banner-photo:nth-of-type(odd) img {
-    margin: 0;
+  .work-section-mobile-grid:nth-of-type(odd) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "image"
+                         "content";
   }
 }
 
@@ -419,6 +432,7 @@ footer p {
     padding: 20px;
     margin: 15px;
     border: none;
+    height: auto;
   }
 
   .banner-content ul {
