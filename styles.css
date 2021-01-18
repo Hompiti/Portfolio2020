@@ -21,6 +21,7 @@ body {
 p {
   margin-bottom: 1.25em;
   line-height: 1.5em;
+  color: #3e4e61;
 }
 
 a {
@@ -31,7 +32,7 @@ h2 {
   text-transform: uppercase;
   font-size: 35px;
   letter-spacing: 1px;
-  color: #274690;
+  color: #3e4e61;
   margin:0;
 }
 
@@ -39,7 +40,7 @@ h3 {
   text-transform: capitalize;
   font-size: 25px;
   letter-spacing: 1px;
-  color: #274690;
+  color: #3e4e61;
   margin:0;
 }
 .content{
@@ -58,7 +59,7 @@ nav {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   padding: 2rem 5rem;
-  background: #302B27;
+  background: #3e4e61;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #f5f3f5;
@@ -98,7 +99,7 @@ nav h3 {
 }
 
 .my-name span {
-  color: #8D9FE0;
+  color: #FC9C41;
 }
 /* ---------------- HERO SECTION ---------------------- */
 
@@ -210,7 +211,7 @@ nav h3 {
 
 .banner-content {
   padding: 40px 0 0 40px;
-  border-left: 3px solid #274690;
+  border-left: 3px solid #3e4e61;
   background-color: #f5f3f5;
   width: 600px;
   height: 300px;
@@ -218,7 +219,7 @@ nav h3 {
 .banner-content:nth-of-type(even) {
   padding: 50px 0 0 15%;
   border: none;
-  border-right: 3px solid #274690;
+  border-right: 3px solid #3e4e61;
   margin-left: -50px;
   z-index: -1;
   width: 550px;
@@ -251,7 +252,8 @@ nav h3 {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background: #576CA8;
+  background: rgb(52,79,107);
+  background: linear-gradient(112deg, rgba(52,79,107,1) 45%, rgba(0,212,255,1) 97%);
   color: #F5F3F5;
   padding: 5em;
   height: 30vh;
