@@ -105,7 +105,9 @@ nav h3 {
 
 /*  background: linear-gradient(127deg,rgba(255,255,255,.8),rgba(255,255,255,.5)), url(main-hero-image.png);*/
 .main-hero {
-  background: linear-gradient(to right top, rgb(209 107 165 / 85%), rgb(199 119 185 / 85%), rgb(186 131 202 / 85%), rgb(170 143 216 / 85%), rgb(154 154 225 / 85%), rgb(138 167 236 / 85%), rgb(121 179 244 / 85%), rgb(105 191 248 / 85%), rgb(82 207 254 / 85%), rgb(65 223 255 / 85%), rgb(70 238 250 / 85%), rgb(95 251 241 / 85%));
+  background: url(blue.jpeg);
+  opacity: 0.8;
+  /* background: linear-gradient(to right top, rgb(209 107 165 / 85%), rgb(199 119 185 / 85%), rgb(186 131 202 / 85%), rgb(170 143 216 / 85%), rgb(154 154 225 / 85%), rgb(138 167 236 / 85%), rgb(121 179 244 / 85%), rgb(105 191 248 / 85%), rgb(82 207 254 / 85%), rgb(65 223 255 / 85%), rgb(70 238 250 / 85%), rgb(95 251 241 / 85%)); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
